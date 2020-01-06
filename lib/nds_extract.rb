@@ -19,10 +19,5 @@ end
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
   result = {}
-  directors_database.each do |dir_name, dir_info|
-    dir_name[:movies].each do |movie|
-      gross_for_director(nds)
-    end
-  end
   nil
 end
